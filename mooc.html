@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<p>I embrace the idea of lifelong learning and I love learning various courses online.</p>
+<p>I'll share the MOOCs I've taken on this site. Hope you find it helpful. :)</p>
+
+<h2>Computer Science</h2>
+<ul>
+    {% for course in site.data.moocs.cs_moocs %}
+    <div class="mooc">
+        <li>
+            <a href="{{course.link}}">{{course.title}}</a>, {{course.provider}}
+        </li>
+        <ul>
+            <li>
+                {%if course.certificate %}
+                <a href="{{course.certificate}}">[certificate]</a>
+                {% endif %}
+                {%if course.notes %}
+                <a href="{{course.notes}}">[notes]</a>
+                {% endif %}
+            </li>
+        </ul>
+    </div>
+
+    {% endfor %}
+</ul>
+
+<h2>Other Subjects</h2>
+<ul>
+    {% for course in site.data.moocs.non_cs_moocs %}
+    <div class="mooc">
+        <li>
+            <a href="{{course.link}}">{{course.title}}</a>, {{course.provider}}
+        </li>
+        <ul>
+            <li>
+                {%if course.certificate %}
+                <a href="{{course.certificate}}">[certificate]</a>
+                {% endif %}
+                {%if course.notes %}
+                <a href="{{course.notes}}">[notes]</a>
+                {% endif %}
+            </li>
+        </ul>
+
+
+
+    </div>
+
+    {% endfor %}
+</ul>
