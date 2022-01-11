@@ -6,48 +6,59 @@ layout: default
 <p>I'll share the MOOCs I've taken on this site. Hope you find it helpful. :)</p>
 
 <h2>Computer Science</h2>
-<ul>
-    {% for course in site.data.moocs.cs_moocs %}
-    <div class="mooc">
-        <li>
-            <a href="{{course.link}}">{{course.title}}</a>, {{course.provider}}
-        </li>
-        <ul>
-            <li>
+{% for course in site.data.moocs.cs_moocs %}
+<div class="card mb-3">
+    <div class="row">
+        <div class="col-md-4">
+            <img class="img-fluid" src="assets/images/python.jpg" alt="">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title"><a href="{{course.link}}">{{course.title}}</a></h5>
+                <p class="catd-text">
+                    <small class="text-muted">
+                        {{course.provider}}
+                    </small>
+                </p>
+                <p class="card-text">
+                </p>
                 {%if course.certificate %}
                 <a href="{{course.certificate}}">[certificate]</a>
                 {% endif %}
                 {%if course.notes %}
                 <a href="{{course.notes}}">[notes]</a>
                 {% endif %}
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
-
-    {% endfor %}
-</ul>
+</div>
+{% endfor %}
 
 <h2>Other Subjects</h2>
-<ul>
-    {% for course in site.data.moocs.non_cs_moocs %}
-    <div class="mooc">
-        <li>
-            <a href="{{course.link}}">{{course.title}}</a>, {{course.provider}}
-        </li>
-        <ul>
-            <li>
+{% for course in site.data.moocs.non_cs_moocs %}
+<div class="card mb-3">
+    <div class="row">
+        <div class="col-md-4">
+            <img class="img-fluid" src="assets/images/me.jpg" alt="">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title"><a href="{{course.link}}">{{course.title}}</a></h5>
+                <p class="catd-text">
+                    <small class="text-muted">
+                        {{course.provider}}
+                    </small>
+                </p>
+                <p class="card-text">
+                </p>
                 {%if course.certificate %}
                 <a href="{{course.certificate}}">[certificate]</a>
                 {% endif %}
                 {%if course.notes %}
                 <a href="{{course.notes}}">[notes]</a>
                 {% endif %}
-            </li>
-        </ul>
-
-
-
+            </div>
+        </div>
     </div>
-
-    {% endfor %}
-</ul>
+</div>
+{% endfor %}
