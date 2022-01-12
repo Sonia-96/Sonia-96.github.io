@@ -1,59 +1,76 @@
 - title: Python for Everybody
   provider: Michigan University, Coursera
   link: https://www.coursera.org/specializations/python
+  image: python.jpg
   certificate: https://www.coursera.org/account/accomplishments/specialization/VKQX743A6MCN
 
 - title: Machine Learning
   provider: Stanford University, Coursera
   link: https://www.coursera.org/learn/machine-learning
+  image: machine_learning.jpg
   certificate: https://www.coursera.org/account/accomplishments/verify/JE4PQXNPXSSE
 
 - title: Deep Learning
   provider: deeplearning.ai, Coursera
   link: https://www.coursera.org/specializations/deep-learning
+  image: deep_learning.jpg
   certificate: https://www.coursera.org/account/accomplishments/specialization/GFYREMEY3Z6T
   notes: https://github.com/Sonia-96/Deep_Learning
 
 - title: The Data Scientist's Toolbox
   provider: John Hopkins University, Coursera
   link: https://www.coursera.org/learn/data-scientists-tools
+  image: data_science_jhu.jpg
   certificate: https://www.coursera.org/account/accomplishments/verify/7E7PZY44ZJM7
 
 - title: Data Structures & Algorithms
   provider: UC San Diego, Coursera
   link: https://www.coursera.org/specializations/data-structures-algorithms
-  certificate:
+  image: DSA.jpg
+  certificate: 
   notes: https://github.com/Sonia-96/Coursera-Data_Structures_and_Algorithms
 
 - title: CS61B-Data Structures (2020 Fall)
   provider: UC Berkeley
   link: http://fa20.datastructur.es/
+  image: CS61B.png
   notes: https://github.com/Sonia-96/UCB-CS61B-Data_Structures_Fall_2020
 
 - title: CS101-Intro to Computer Science
   provider: Udacity
   link: https://classroom.udacity.com/courses/cs101
+  image: CS101.jpg
   certificate:
   notes:
 
 - title: Python for Data Science and Machine Learning Bootcamp
   provider: Jose Portilla, Udemy
   link: https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp
-  certificate:
+  image: DSbootcamp.jpg
+  certificate: assets/certificates/Python4DS+ML.jpg
   notes:
 
 - title: The Web Developer Bootcamp 2022
   provider: Cole Steele, Udemy
   link: https://www.udemy.com/course/the-web-developer-bootcamp/
-  certificate:
+  image: web_dev.jpg
+  certificate: assets/certificates/WebDeveloperBootcamp.jpg
   notes: https://github.com/Sonia-96/YelpCamp
 
 - title: The Ultimate MySQL Bootcamp
   provider: Cole Steele, Udemy
   link: https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/
-  certificate:
+  image: mysql.jpg
+  certificate: assets/certificates/MySQL.jpg
   notes: https://github.com/Sonia-96/Join_Us_Web_App
 
 - title: Talbeau
   provider: 未明学院, bilibili
   link: https://www.bilibili.com/video/BV1E4411B7ef?from=search&seid=17863348267884991224&spm_id_from=333.337.0.0
+  image: tableau.jpg
+
+- title: MATLAB Onramp
+  provider: MathWorks | Training Services
+  link: https://matlabacademy.mathworks.com/cn/details/matlab-onramp/gettingstarted
+  image: MATLAB.jpg
+  certificate: assets/certificates/MATLAB Onramp.pdf

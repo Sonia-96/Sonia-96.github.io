@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+
+<div class="container-fluid">
+
+    <div class="jumbotron">
+        <h1 class="text-center">Hello</h1>
+        <p class="text-center">Mountains make up about one-fifth of the world's landscape, and also provide homes to at
+            least 10% of the world's people.</p>
+    </div>
+
+    <div class="row">
+        {% for image in site.data.album.photos %}
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <figure>
+                <img src="assets/images/album/{{image.title}}" class="img-thumbnail grayscale">
+                <figcaption class="text-center">{{image.caption}}</figcaption>
+            </figure>
+        </div>
+        {% endfor %}
+    </div>
+</div>

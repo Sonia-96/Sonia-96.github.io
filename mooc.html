@@ -5,12 +5,12 @@ layout: default
 <p>I embrace the idea of lifelong learning and I love learning various courses online.</p>
 <p>I'll share the MOOCs I've taken on this site. Hope you find it helpful. :)</p>
 
-<h2>Computer Science</h2>
+<h4>Computer Science</h4>
 {% for course in site.data.moocs.cs_moocs %}
 <div class="card mb-3">
     <div class="row">
         <div class="col-md-4">
-            <img class="img-fluid" src="assets/images/python.jpg" alt="">
+            <img class="img-fluid" src="assets/images/moocs/{{course.image}}" alt="">
         </div>
         <div class="col-md-8">
             <div class="card-body">
@@ -34,12 +34,12 @@ layout: default
 </div>
 {% endfor %}
 
-<h2>Other Subjects</h2>
+<h4>Other Subjects</h4>
 {% for course in site.data.moocs.non_cs_moocs %}
 <div class="card mb-3">
     <div class="row">
         <div class="col-md-4">
-            <img class="img-fluid" src="assets/images/me.jpg" alt="">
+            <img class="img-fluid" src="assets/images/moocs/{{course.image}}" alt="">
         </div>
         <div class="col-md-8">
             <div class="card-body">

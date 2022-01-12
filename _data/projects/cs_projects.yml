@@ -1,0 +1,26 @@
+- title: A distributed crawler and data processing pipeline
+  link: 
+  place: Xiaobing.ai
+  image: assets/images/projects/weibo.png
+  techniques: Python(Scrapy, pandas), MongoDB, Redis, Linux
+  description: Weibo Crawler, Data Pipeline, Comment Threading.
+#     - Weibo Crawler: Designed and implemented a distributed crawler to extract the information of trending topics, posts,
+# comments, and user information, which can collect more than 300K records every day
+#     - Data Pipeline: Cleaned, filtered, de-duplicated the scraped data by writing scripts, which is then stored in MongoDB
+#     - Comment Threading: Threaded comments based on the time and contents, used the Depth-First search algorithm to
+# create separate conversations and output a text over 30MB every day
+
+- title: A campground sharing and reviewing site - YelpCamp
+  link: https://stark-stream-80494.herokuapp.com/
+  place: Personal project
+  image: assets/images/projects/yelpcamp.jpg
+  techniques: HTML, Bootstrap, Node.js, MongoDB
+  description: "YelpCamp is a Yelp-style website for campgrounds, where people can share campsites with photos and comment on others.
+This app supports user authentication, posts management (creating, editing, and deleting), and image uploading, etc."
+
+- title: Data mining and report automation for McCormick’s digital orders
+  link: 
+  place: Yimian Data, Ascential
+  image: assets/images/projects/yimian.png
+  techniques: Python(Numpy, pandas, Graphviz), Hive/Impala SQL
+  description: "对某品牌天猫旗舰店的110万条订单数据进行分析，主要涉及数据清洗、订单规律探索、复购分析、关联分析、购买路径、用户画像6个模块。最后对代码进行整合和封装，实现分析报表的自动输出，每月可节省2人天。"
