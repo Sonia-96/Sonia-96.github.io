@@ -2,24 +2,34 @@
 layout: default
 ---
 
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 
-<div class="container-fluid">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
-    <div class="jumbotron">
-        <h1 class="text-center">Hello</h1>
-        <p class="text-center">Mountains make up about one-fifth of the world's landscape, and also provide homes to at
-            least 10% of the world's people.</p>
-    </div>
 
+{% for file in site.data.album reversed%}
+{% assign year = file[0] %}
+<h4>{{year}}</h4>
+<!-- Page Content -->
+<div class="container page-top">
     <div class="row">
-        {% for image in site.data.album.photos %}
-
-        <div class="col-sm-12 col-md-6 col-lg-4">
+        {% for image in file[1] %}
+        <div class="col-lg-4 col-md-6 col-xs-2 thumb">
             <figure>
-                <img src="assets/images/album/{{image.title}}" class="img-thumbnail grayscale">
+                <a href="assets/images/album/{{year}}/{{image.title}}" class="fancybox" rel="ligthbox">
+                    <img src="assets/images/album/{{year}}/{{image.title}}" class="zoom img-fluid " alt="">
+                </a>
                 <figcaption class="text-center">{{image.caption}}</figcaption>
-            </figure>
+                <figcaption class="text-center small">{{image.location}}</small>
+                <figcaption class="text-center small">{{image.date}}</small>
+            </figure>   
         </div>
         {% endfor %}
     </div>
 </div>
+
+{% endfor %}
