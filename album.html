@@ -2,34 +2,15 @@
 layout: default
 ---
 
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-
-
-{% for file in site.data.album reversed%}
-{% assign year = file[0] %}
-<h4>{{year}}</h4>
-<!-- Page Content -->
 <div class="container page-top">
     <div class="row">
-        {% for image in file[1] %}
+        {% for album in site.data.album.years %}
         <div class="col-lg-4 col-md-6 col-xs-2 thumb">
             <figure>
-                <a href="assets/images/album/{{year}}/{{image.title}}" class="fancybox" rel="ligthbox">
-                    <img src="assets/images/album/{{year}}/{{image.title}}" class="zoom img-fluid " alt="">
-                </a>
-                <figcaption class="text-center">{{image.caption}}</figcaption>
-                <figcaption class="text-center small">{{image.location}}</small>
-                <figcaption class="text-center small">{{image.date}}</small>
-            </figure>   
+                <img src="assets/images/album/{{album.year}}.jpg" class="zoom img-fluid " alt="">
+                <a href="{{album.link}}"><figcaption class="text-center">{{album.year}}</figcaption></a>
+            </figure>
         </div>
         {% endfor %}
     </div>
 </div>
-
-{% endfor %}
