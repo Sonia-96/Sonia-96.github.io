@@ -2,17 +2,19 @@
 layout: default
 ---
 
-<p>I embrace the idea of lifelong learning and I love learning various courses online.</p>
+<p>I embrace the idea of lifelong learning and enjoy learning MOOCs in my leisure time.</p>
 <p>I'll share the MOOCs I've taken on this site. Hope you find it helpful. :)</p>
 
-<h4>Computer Science</h4>
-{% for course in site.data.moocs.cs_moocs %}
+{% for file in site.data.moocs %}
+{% assign cate = file[0] %}
+<h4>{{cate}}</h4>
+{% for course in file[1] %}
 <div class="card mb-3">
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
             <img class="img-fluid" src="assets/images/moocs/{{course.image}}" alt="">
         </div>
-        <div class="col-md-8">
+        <div class="col-md-9">
             <div class="card-body">
                 <h5 class="card-title"><a href="{{course.link}}">{{course.title}}</a></h5>
                 <p class="catd-text">
@@ -33,32 +35,4 @@ layout: default
     </div>
 </div>
 {% endfor %}
-
-<h4>Other Subjects</h4>
-{% for course in site.data.moocs.non_cs_moocs %}
-<div class="card mb-3">
-    <div class="row">
-        <div class="col-md-4">
-            <img class="img-fluid" src="assets/images/moocs/{{course.image}}" alt="">
-        </div>
-        <div class="col-md-8">
-            <div class="card-body">
-                <h5 class="card-title"><a href="{{course.link}}">{{course.title}}</a></h5>
-                <p class="catd-text">
-                    <small class="text-muted">
-                        {{course.provider}}
-                    </small>
-                </p>
-                <p class="card-text">
-                </p>
-                {%if course.certificate %}
-                <a href="{{course.certificate}}">[certificate]</a>
-                {% endif %}
-                {%if course.notes %}
-                <a href="{{course.notes}}">[notes]</a>
-                {% endif %}
-            </div>
-        </div>
-    </div>
-</div>
 {% endfor %}

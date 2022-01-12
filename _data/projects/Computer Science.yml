@@ -1,5 +1,6 @@
-- title: A distributed crawler and data processing pipeline
-  link: 
+- title: A distributed crawler and data pipeline
+  id: 1
+  link: projects/crawler
   place: Xiaobing.ai
   image: assets/images/projects/weibo.png
   techniques: Python(Scrapy, pandas), MongoDB, Redis, Linux
@@ -11,7 +12,8 @@
 # create separate conversations and output a text over 30MB every day
 
 - title: A campground sharing and reviewing site - YelpCamp
-  link: https://stark-stream-80494.herokuapp.com/
+  id: 2
+  link: projects/yelpcamp
   place: Personal project
   image: assets/images/projects/yelpcamp.jpg
   techniques: HTML, Bootstrap, Node.js, MongoDB
@@ -19,7 +21,8 @@
 This app supports user authentication, posts management (creating, editing, and deleting), and image uploading, etc."
 
 - title: Data mining and report automation for McCormick’s digital orders
-  link: 
+  id: 3
+  link: projects/yimian
   place: Yimian Data, Ascential
   image: assets/images/projects/yimian.png
   techniques: Python(Numpy, pandas, Graphviz), Hive/Impala SQL
