@@ -7,8 +7,11 @@ layout: default
         {% for album in site.data.album.years %}
         <div class="col-lg-4 col-md-6 col-xs-2 thumb">
             <figure>
-                <img src="assets/images/album/{{album.year}}.jpg" class="zoom img-fluid " alt="">
-                <a href="{{album.link}}"><figcaption class="text-center">{{album.year}}</figcaption></a>
+                <a href="{{album.link}}"><img src="assets/images/album/{{album.year}}.jpg" class="zoom img-fluid "
+                        alt=""></a>
+                <a href="{{album.link}}">
+                    <figcaption class="text-center">{{album.year}}</figcaption>
+                </a>
             </figure>
         </div>
         {% endfor %}
