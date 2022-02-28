@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% for file in site.data.readings reversed%}
+{% assign year = file[0] %}
+    <h4>{{ year }}</h4>
+    {% for book in file[1] %}
+    <div class="card mb-3">
+        <div class="card-header">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="assets/images/readings/{{ book.image }}" alt="">
+                </div>
+                <div class="col-md-9">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ book.title }}</h5>
+                        <p class="catd-text">
+                            <small class="text-muted">
+                                {{ book.author }}
+                            </small>
+                        </p>
+                        <p class="card-text">
+                            <small> {{ book.description }}</small>
+                        </p>
+                        {%if book.note %}
+                            <a href="{{ book.note}}">[note]</a>
+                        {% endif %}
+                        {%if book.review %}
+                            <a href="{{ book.review}}">[review]</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    {% endfor %}
+{% endfor %}
