@@ -10,8 +10,6 @@ Data Analyst Intern, Yimian Data
 
 *Aug 2020 - Jan 2021*
 
-#### description
-
 Wrote python scripts to analyze McCormick's digital orders and generate a monthly report automatically. The analyzing process includes six parts: data cleaning, order patterns, repurchasing patterns, association analysis, repurchasing tree, user portraits.
 
 - Data Cleaning: Cleaned over one million orders, extracted features, and matched items with changing titles, achieving a matching ratio of 99.6%

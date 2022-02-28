@@ -8,8 +8,6 @@ Undergraduate Thesis, Peking University
 
 *Dec 2017 - Jul 2018*
 
-#### description
-
 Humidity sensing plays paramount roles in fields ranging across daily life and national defense, yet advanced humidity sensors with multiple configuration compatibility to meet different applications still remain challenging. Combining the moisture-dependent isomerization of Rhodamine B (RhB) and a caking facilitated supramolecular film based on aggregation induced emission (AIE) chromophore, this study produced a humidity sensitive film which can respond both in color and fluorescence as a result of humidity sensitive fluorescence resonance energy transfer (FRET) between the AIEgen and RhB. 
 
 <a href="../assets/images/projects/humidity.png"><img src="../assets/images/projects/humidity.png"></a>

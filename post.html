@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+    <div class="card mb-3">
+        <div class="card-header">
+            <div class="row">
+                <h4 class="card-title"><a href="{{ post.url }}">{{post.title}}</a></h4>
+                <span class="post-meta">{{ post.date }}</span>
+                <p class="card-text">
+                    {{ post.intro }}
+                </p>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+

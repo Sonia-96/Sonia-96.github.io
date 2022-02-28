@@ -8,8 +8,6 @@ Software Engineer Intern, Xiaobing.ai
 
 *Jul 2021 - Oct 2021*
 
-#### description
-
 [Weibo](https://weibo.com/) is the second largest social media in China, providing abundant corpora and images for NLP and multimodal projects.
 
 There are mainly three parts in this project:
