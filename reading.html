@@ -14,7 +14,7 @@ layout: default
                 </div>
                 <div class="col-md-9">
                     <div class="card-body">
-                        <h5 class="card-title">{{ book.title }}</h5>
+                        <h5 class="card-title"><a href="{{ book.link }}">{{ book.title }}</a></h5>
                         <p class="catd-text">
                             <small class="text-muted">
                                 {{ book.author }}
@@ -23,12 +23,6 @@ layout: default
                         <p class="card-text">
                             <small> {{ book.description }}</small>
                         </p>
-                        {%if book.note %}
-                            <a href="{{ book.note}}">[note]</a>
-                        {% endif %}
-                        {%if book.review %}
-                            <a href="{{ book.review}}">[review]</a>
-                        {% endif %}
                     </div>
                 </div>
             </div>
