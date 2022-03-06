@@ -1,70 +1,82 @@
+- title: 那不勒斯四部曲
+  image: naples.jpg
+  author: 埃莱娜·费兰特
+  translator: 陈英
+  date: 2021-02-13
+  description: 这是一本以女性友谊为主题的书籍。它讲述了两个女孩截然不同又互相缠绕的一生。两个女主角出生于那不勒斯一个充满暴力的社区，莉拉拥有超越时代的天赋和认识，但是却没能逃脱16岁嫁人的命运；莱农则相对幸运，靠着自身努力和贵人相助读完了大学，嫁入了一个学术精英家庭。作者用细腻的笔触描绘出了两个女孩之间复杂的友情：她们时有角力，但总在关键时刻互相帮助。<br>而书中的男性则几乎全员恶人。暴力、自大、物化女性，无论是工人阶级还是上层社会的男性，你都能在他们身上找到以上至少一条特质。在阅读本书的过程中，你会逐渐破除对男人、性交、婚姻的幻想，意识到建立女性同盟的重要性远胜过一场实现阶级跨越的婚姻。所以，我认为这是一本女性必读的觉醒之书。
+
 - title: 父权制与资本主义
   image: patriarchy.jpg
-  author: 【著】上野千鹤子; 【译】邹韵, 薛梅
+  author: 上野千鹤子
+  translator: 邹韵，薛梅
   description: 本书是作者历经十年完成的重要作品，是其在第二波女性主义接近尾声，后现代女性主义思潮、酷儿理论兴起之初，对女权主义各个派别，特别是马克思主义女权主义的再次思考。近代社会在“资本主义”支配的“市场”和“父权制”支配的“家庭形态双重控制下，以无偿的女性劳务等为中心，形成了女性地位低下的历史根源。作者对此进行了深刻批判，并就如何改善女性的社会地位提出了中肯的建议。本书尽管论述的是日本女性的地位问题，但其观点在相当大程度上适用于当下中国的国情。因而对于任何思考女性地位与男女平等问题的人都有着莫大的启发。（摘自豆瓣）
   link: book_reviews/patriarchy
   date: 2021-03-15
 
 - title: 在轮下
   image: unterm_rad.jpg
-  author: 【著】赫尔曼•黑塞;【译】林倩苇, 柯晏邾
+  author: 赫尔曼•黑塞
+  translator: 林倩苇，柯晏邾
   description: 《在轮下》是黑塞的一部自传式的小说，书中讲述了小镇做题家从绽放到陨落的过程，抨击了当时剥夺人性的教育体制。书籍的文笔细腻但深沉，尤其是这个三连问：“为何他必须在最敏感而危殆的少年时期每天用功到深夜？为什么带走他的兔子，刻意让他在拉丁文学校的同学疏远他，禁止他去钓鱼和闲逛，灌输他卑劣、无力、矫情的空洞与卑微理想？为何在联邦考试结束后，不让他享受应得的假期？”可谓是振聋发聩。
   link: book_reviews/unterm_rad
   date: 2021-04-20
 
 - title: 如何阅读一本书
-  image: 2021/how_to_read.jpg
-  author: 【著】莫提默·J.艾德勒, 查尔斯·范多伦; 【译】郝明义, 朱衣
+  image: how_to_read.jpg
+  author: 莫提默·J.艾德勒，查尔斯·范多伦
+  translator: 郝明义，朱衣
   date: 2021-04-20
   link: book_reviews/如何阅读一本书.png
   description: 本书介绍了阅读的主要目的（提升理解力），阅读的四个层次（基础阅读、检视阅读、分析阅读、主题阅读；其中分析阅读是本书重点），阅读不同书籍的方法，以及一些实用的阅读技巧（如何做笔记，用指读法提高阅读速度）。方法的掌握重在实践。在日后的阅读中，还需有意识地练习本书的方法，才能真正提高阅读能力。
 
 - title: 我们为什么要睡觉
-  image: 2021/why_we_sleep.jpg
-  author: 【著】马修·沃克; 【译】田盈春
+  image: why_we_sleep.jpg
+  author: 马修·沃克
+  translator: 田盈春
   date: 2021-05-01
 
 - title: 浪潮之巅
-  image: 2021/top_of_tides.jpg
+  image: top_of_tides.jpg
   author: 吴军
   date: 2021-06-15
 
 - title: 被讨厌的勇气
-  image: 2021/courage.jpg
-  author: 【著】岸见一郎, 古贺史健; 【译】渠海霞
+  image: courage.jpg
+  author: 岸见一郎，古贺史健
+  translator: 渠海霞
   date: 2021-07-20
 
-- title: 那不勒斯四部曲
-  image: 2021/naples.jpg
-  author: 【著】埃莱娜·费兰特; 【译】陈英
-  date: 2021-02-10
-
 - title: 向前一步：女性，工作及领导意志
-  image: 2021/lean_in.jpg
-  author: 【著】Sheryl Sandberg; 【译】颜筝
+  image: lean_in.jpg
+  author: Sheryl Sandberg
+  translator: 颜筝
   date: 2021-02-10
 
 - title: 男性的衰落
-  image: 2021/default_man.jpg
-  author: 【著】格雷森·佩里; 【译】张艳、许敏
+  image: default_man.jpg
+  author: 格雷森·佩里
+  translator: 张艳，许敏
   date: 2021-01-20
 
 - title: 19年间谋杀小叙
-  image: 2021/19years.jpg
+  image: 19years.jpg
   author: 那多
   date: 2021-09-05
+  description: 作者文笔很好，第一章的恐怖氛围营造得极好；第二章则刻画了复杂的人性，看得人背脊发凉。许是前面铺陈太多的缘故，我已隐隐猜到真相，所以结局带来的震撼反而不如前两章。但即便如此，这仍是一本非常精彩的推理小说。（温馨提示：千万不要睡前看这本书，否则你要么会害怕得睡不着，要么会因为太想知道凶手而熬夜看完这本书……）
 
 - title: 厌女：日本的女性嫌恶
-  image: 2021/misogyny.jpg
-  author: 【著】上野千鹤子; 【译】王兰
+  image: misogyny.jpg
+  author: 上野千鹤子
+  translator: 王兰
   date: 2021-01-27
 
 - title: 暗时间
-  image: 2021/dark_time.jpg
+  image: dark_time.jpg
   author: 刘未鹏
   date: 2021-01-02
 
 - title: 人类简史
-  image: 2021/sapiens.jpg
-  author: 【著】尤瓦尔·赫拉利; 【译】林俊宏
+  image: sapiens.jpg
+  author: 尤瓦尔·赫拉利
+  translator: 林俊宏
   date: 2021-10-30

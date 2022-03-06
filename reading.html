@@ -10,7 +10,7 @@ layout: default
         <div class="card-header">
             <div class="row">
                 <div class="col-md-3">
-                    <img class="img-fluid" src="assets/images/readings/{{ book.image }}" alt="">
+                    <img class="img-fluid" src="assets/images/readings/{{ year }}/{{ book.image }}" alt="">
                 </div>
                 <div class="col-md-9">
                     <div class="card-body">
@@ -20,7 +20,10 @@ layout: default
                             <h5 class="card-title">{{ book.title }}</h5>
                         {% endif %}
                         <p class="catd-text">
-                            <small class="text-muted">{{ book.author }}</small>
+                            <small class="text-muted">{{ book.author }} （著）；</small>
+                            {% if book.translator %}
+                                <small class="text-muted">{{ book.translator }} （译）</small>
+                            {% endif %}
                         </p>
                         <p class="card-text">
                             <small> {{ book.description }}</small>
